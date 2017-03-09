@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Daily Report
 1. Git - GitHub - Repositoty
 - Git is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for software development, but it can be used to keep track of changes in any files.
@@ -11,3 +12,6 @@ Delete branch :
 - Pull requests are a mechanism for a developer to notify team members that they have completed a feature. Once their feature branch is ready, the developer files a pull request via their Github account. This lets everybody involved know that they need to review the code and merge it into the master branch.
 
 3. 
+=======
+Hello worldsgit checkout -b day_01
+>>>>>>> a7c81d23432b501ec5f766fa6f266b52feeb769f
