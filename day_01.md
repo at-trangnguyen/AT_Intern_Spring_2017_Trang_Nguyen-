@@ -7,7 +7,7 @@ A Git repo contains every version of every file saved in the repo. Git saves the
 2. Branch - Pull request
 -New commits are recorded in the history for the current branch, which results in a fork in the history of the project. The git branch command lets you create, list, rename, and delete branches. It doesn't let you switch between branches or put a forked history back together again.
 Create branch :$ git checkout -b branch_name
-Delete branch :
+Delete branch :$ git branch -D brand_name
 - Pull requests are a mechanism for a developer to notify team members that they have completed a feature. Once their feature branch is ready, the developer files a pull request via their Github account. This lets everybody involved know that they need to review the code and merge it into the master branch.
 
 3. 
