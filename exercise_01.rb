@@ -19,12 +19,13 @@ class Info
   def create_info_file
     f = File.new("#{name}.txt", "w+")
     self.instance_variables.each_with_index do |attribute, index|
-      f.write(set_file_template[index] + (self.instance_variable_get attribute))
+      f.write(set_file_template[index] + (self.instance_variable_get attribute)) 
+      f.write(".\n")
     end
   end
 
   def set_file_template
-    ["My name is " ,"\n""My mentor is ", "\n""My team is ","\n""My link github is "]
+    ["My name is " ,"My mentor is ","My team is ","My link github is "]
   end
 end
 
