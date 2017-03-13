@@ -1,7 +1,7 @@
 Daily Report - Day 05
 Learn and research about HTML:
 * Structure
-<head>...</head>: contain informations about the document : title, style, character set,descreption, keyword...
+```<head>...</head>: contain informations about the document : title, style, character set,descreption, keyword...
 <body>...</body>:contain content of the decument
 *Elements
 - Anatomy of an HTML element: [Opening tag]Enclosed text content[Closing tag]
@@ -66,4 +66,4 @@ Ex:
 			<td><TFooter2</td>
 		</tr>
 	</tfooter>
-</table>
+</table>```
