@@ -1,16 +1,24 @@
 Daily Report - Day 05
 Learn and research about HTML:
 * Structure
+
+```html
 <head>...</head>: contain informations about the document : title, style, character set,descreption, keyword...
 <body>...</body>:contain content of the decument
+```
+
 *Elements
 - Anatomy of an HTML element: [Opening tag]Enclosed text content[Closing tag]
 	Block-level elements: are tags represent html elements as blocks, begin on new lines.
+	
+	```html
 	ex: <header>, <footer>, <article>,<aside>,<h>, <p>, <form>, <ul>, <ol>, <li>...
 	Inline elements: represent html elements inline, can start anywhere in a line.
 	ex: <img>, <span>, <input>, <a>, <lable>, <sub>....
 	Empty elements: no content, maybe has no closing tag.
 	ex: <hr>, <br>, <link>....
+	```
+	
 *Doctype : not a html tag, required.
 In Html5, it written: 
 <!DOCTYPE html>
