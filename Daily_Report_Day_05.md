@@ -8,45 +8,48 @@ Learn and research about HTML:
 	Block-level elements: are tags represent html elements as blocks, begin on new lines.
 	ex: `<header>`, `<footer>`, `<article>`,`<aside>`,`<h>`, `<p>`, `<form>`, `<ul>`, `<ol>`, `<li>`...
 	Inline elements: represent html elements inline, can start anywhere in a line.
-	ex: <img>, <span>, <input>, <a>, <lable>, <sub>....
+	ex: `<img>`, `<span>`, `<input>`, `<a>`, `<lable>`, `<sub>`....
 	Empty elements: no content, maybe has no closing tag.
-	ex: <hr>, <br>, <link>....
+	ex: `<hr>`, `<br>`, `<link>`....
 *Doctype : not a html tag, required.
 In Html5, it written: 
-<!DOCTYPE html>
+`<!DOCTYPE html>`
 *Layout: 3 parts
 -Header:
+	```
 	<header>
 		logo: use <img> or <a><img></a>
 		menu: use <nav> or <ul>,<li>
 	</header>
+	```
 -Container:
-<section>
+`<section>`
 on the left: 
-<article>
-	<h>
-	<p>
+`<article>`
+	`<h>`
+	`<p>`
 on the right:
-<aside>
-<ul> <li> or <a>
-</section>
+`<aside>`
+`<ul>` `<li>` or `<a>`
+`</section>`
 -Footer:
-<footer>
-</footer>
-*Table: <thead>, <tbody>, <tfooter>
-- <thead>: 
+`<footer>`
+`</footer>`
+*Table: `<thead>`, `<tbody>`, `<tfooter>`
+- `<thead>`: 
 	theah tag groups header content in an HTML table.
 	theah element specifies header of table.
 	theah element must have at least one <tr> tags inside.
--<tbody>:
+-`<tbody>`:
 	tbody tag groups body content in an HTML table.
 	tbody element specifies body of table.
 	tbody element must have at least one <tr> tags inside.
--<tfooter>: 
+-`<tfooter>`: 
 	tfooter tag is used for adding a footer to a table.
 	tfooter element specifies footer of table.
 	tfooter element must have at least one <tr> tags inside.
-```Ex:
+Ex:
+```
 <pre>
 <table>
 	<thead>
@@ -68,4 +71,5 @@ on the right:
 		</tr>
 	</tfooter>
 </table>
-</pre>```
+</pre>
+```
