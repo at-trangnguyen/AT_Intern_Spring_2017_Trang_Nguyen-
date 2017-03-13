@@ -15,12 +15,15 @@ Learn and research about HTML:
 	Block-level elements: are tags represent html elements as blocks, begin on new lines.
 
 	ex: `<header>`, `<footer>`, `<article>`,`<aside>`,`<h>`, `<p>`, `<form>`, `<ul>`, `<ol>`, `<li>`...
+
 	Inline elements: represent html elements inline, can start anywhere in a line.
 
 	ex: `<img>`, `<span>`, `<input>`, `<a>`, `<lable>`, `<sub>`....
+
 	Empty elements: no content, maybe has no closing tag.
 
 	ex: `<hr>`, `<br>`, `<link>`....
+	
 *Doctype : not a html tag, required.
 
 In Html5, it written: 
@@ -86,7 +89,7 @@ on the right:
 	tfooter element specifies footer of table.
 
 	tfooter element must have at least one <tr> tags inside.
-	
+
 Ex:
 ```
 <table>
