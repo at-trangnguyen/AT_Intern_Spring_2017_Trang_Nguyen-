@@ -1,12 +1,12 @@
 Daily Report - Day 05
 Learn and research about HTML:
 * Structure
-```<head>...</head>: contain informations about the document : title, style, character set,descreption, keyword...
-<body>...</body>:contain content of the decument
+```<head>...</head>```: contain informations about the document : title, style, character set,descreption, keyword...
+```<body>...</body>```:contain content of the decument
 *Elements
 - Anatomy of an HTML element: [Opening tag]Enclosed text content[Closing tag]
 	Block-level elements: are tags represent html elements as blocks, begin on new lines.
-	ex: <header>, <footer>, <article>,<aside>,<h>, <p>, <form>, <ul>, <ol>, <li>...
+	ex: `<header>`, `<footer>`, `<article>`,`<aside>`,`<h>`, `<p>`, `<form>`, `<ul>`, `<ol>`, `<li>`...
 	Inline elements: represent html elements inline, can start anywhere in a line.
 	ex: <img>, <span>, <input>, <a>, <lable>, <sub>....
 	Empty elements: no content, maybe has no closing tag.
@@ -46,7 +46,8 @@ on the right:
 	tfooter tag is used for adding a footer to a table.
 	tfooter element specifies footer of table.
 	tfooter element must have at least one <tr> tags inside.
-Ex:
+```Ex:
+<pre>
 <table>
 	<thead>
 		<tr>
@@ -66,4 +67,5 @@ Ex:
 			<td><TFooter2</td>
 		</tr>
 	</tfooter>
-</table>```
+</table>
+</pre>```
