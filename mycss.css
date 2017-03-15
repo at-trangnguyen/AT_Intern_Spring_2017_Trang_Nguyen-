@@ -1,0 +1,119 @@
+.clear{
+  clear: both;
+}
+.header{
+  height: 160px;
+  width: 100%;
+  float: left;
+}
+.logo{
+  float: left;
+}
+.title{
+  width: 500px; 
+  height: 60px;
+  float: left;
+}
+.title p {
+  text-align: center;
+}
+.contact { 
+  float: right;
+}
+nav {
+  height: 50px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: solid #ccc 1px;
+ }
+nav ul li {
+    display: inline-block;
+    border-left: solid 1px #ccc;
+    margin-left: -5px;
+}
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+  color: red;
+}
+.banner p {
+  background-color: lightblue;
+  padding: 50px 50px;
+}
+.content {
+  margin: 0 50px 50px 50px;
+}
+aside{
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.menu-left-item ul{
+  list-style-type: none;
+  padding-left: 10px;
+  text-decoration: none;
+}
+.menu-left li{
+  list-style-type: none;
+  padding-left: 10px;
+  text-decoration: none;
+}
+main{
+  width: 80%;
+  height: 100%;
+  float: right;
+}
+.content-list {
+  list-style: none;
+}
+.content-list-item {
+  width: 30%;
+  border: #000 1px solid;
+  float: left;
+  height: 300px;
+  margin: 0 1.5% 1.5% 1.5%;
+}
+.content-list-item .content-list-item-info{
+  padding: 0px 15px;
+}
+.order-calender form input[type=text] {
+  margin: 7px 0px;
+  padding: 2px 0px;
+}
+.order-calender form input[type=submit] {
+  margin: 7px 0px 7px 60px;
+  padding: 5px 15px;
+  background-color: #00CF4F;
+  color: #FFF;
+  font-weight: bold;
+}
+footer{
+  height: 100%;
+  background-color: lightblue;
+}
+footer .copyright {
+  text-align: left; 
+  margin-left: 50px;
+  padding: 20px 0; 
+}
+footer .navi-end {
+  width: 90%;
+  margin-left: 50px;
+  vertical-align: center;
+}
+footer .navi-end div {
+  float: left;
+  width: 30%;
+}
+footer .navi-end div ul {
+  padding-left: 20px;
+}
