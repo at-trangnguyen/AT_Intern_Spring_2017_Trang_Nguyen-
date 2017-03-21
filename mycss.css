@@ -45,13 +45,23 @@ nav ul li a {
 nav ul li a:hover {
   color: red;
 }
-.banner p {
+.banner {
+  height: 60px;
   background-color: lightblue;
-  padding: 50px 50px;
+}
+.banner ul{
+  list-style-type: none;
+}
+.banner ul li{
+  display: inline-block;
+  border-left: solid 1px #ccc;
+  margin-left: -5px;
+  padding: 20px 20px;
 }
 .content {
   margin: 0 50px 50px 50px;
 }
+
 aside{
   width: 20%;
   height: 100%;
@@ -59,13 +69,18 @@ aside{
 }
 .menu-left-item ul{
   list-style-type: none;
-  padding-left: 10px;
   text-decoration: none;
 }
-.menu-left li{
+.menu-left ul li{
+
   list-style-type: none;
-  padding-left: 10px;
-  text-decoration: none;
+}
+.menu-left li ul li a{
+  text-decoration:none;
+}
+.menu-left h3{
+  border: #000 1px solid;
+  background-color: lightblue;
 }
 main{
   width: 80%;
@@ -92,8 +107,8 @@ main{
 .order-calender form input[type=submit] {
   margin: 7px 0px 7px 60px;
   padding: 5px 15px;
-  background-color: #00CF4F;
-  color: #FFF;
+  background-color: #f7f7f7;
+  color: black;
   font-weight: bold;
 }
 footer{
@@ -101,7 +116,7 @@ footer{
   background-color: lightblue;
 }
 footer .copyright {
-  text-align: left; 
+  text-align: center; 
   margin-left: 50px;
   padding: 20px 0; 
 }
@@ -111,7 +126,7 @@ footer .navi-end {
   vertical-align: center;
 }
 footer .navi-end div {
-  float: left;
+  float: right;
   width: 30%;
 }
 footer .navi-end div ul {
