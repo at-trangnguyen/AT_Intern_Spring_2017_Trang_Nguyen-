@@ -1,0 +1,264 @@
+/*Color*/
+@font-face {
+  font-family: 'SansationLight';
+  src: url("./SansationLight.eot");
+  src: local("SansationLight"), url("./SansationLight.woff") format("woff"), url("./SansationLight.ttf") format("truetype"); }
+* {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+li {
+  list-style: none;
+  font-size: 14px;
+  font-family: 'SansationLight'; }
+
+a {
+  font-family: 'SansationLight';
+  text-decoration: none;
+  color: #000; }
+
+p {
+  font-size: 14px;
+  font-family: 'SansationLight'; }
+
+span {
+  font-size: 14px;
+  font-family: 'SansationLight'; }
+
+body {
+  margin: 0;
+  font-family: 'SansationLight'; }
+
+.container {
+  margin: 0 auto;
+  width: 1240px; }
+  .container::after {
+    display: block;
+    clear: both;
+    content: ""; }
+
+.header {
+  height: 110px;
+  margin-top: 10px; }
+  .header::after {
+    display: block;
+    clear: both;
+    content: ""; }
+  .header .logo {
+    float: left; }
+  .header .chamsockhachhang {
+    float: right;
+    margin-right: -5px; }
+    .header .chamsockhachhang li {
+      float: left;
+      color: #585858;
+      padding-left: 36px; }
+      .header .chamsockhachhang li:first-child {
+        padding-left: 0; }
+      .header .chamsockhachhang li .icon {
+        float: left;
+        margin-right: 12px; }
+    .header .chamsockhachhang .info {
+      line-height: 20px;
+      padding: 0 -10px;
+      float: left; }
+      .header .chamsockhachhang .info p {
+        font-size: 12px; }
+      .header .chamsockhachhang .info em {
+        padding: 0 10px; }
+    .header .chamsockhachhang span {
+      color: #ffa800;
+      font-weight: bold; }
+  .header .main-menu {
+    float: right;
+    font-size: 14px;
+    margin-right: -5px;
+    margin-bottom: 10px; }
+    .header .main-menu a {
+      padding: 5px; }
+    .header .main-menu .main-menu-list .item-menu {
+      margin-left: 43px;
+      float: left;
+      position: relative; }
+      .header .main-menu .main-menu-list .item-menu:hover a {
+        text-align: center;
+        background-color: #ffa800;
+        color: #fff; }
+
+.banner {
+  width: 100%;
+  height: 179px;
+  background-size: 100% 100%;
+  background-image: url("../img/banner.png");
+  background-repeat: no-repeat;
+  position: relative; }
+  .banner .banner-content1 {
+    position: absolute;
+    font-family: 'SansationLight';
+    font-size: 32px;
+    color: #fff;
+    top: 50px;
+    z-index: 1;
+    font-style: normal; }
+  .banner .banner-content2 {
+    position: absolute;
+    font-family: 'SansationLight';
+    font-size: 32px;
+    color: #fff;
+    z-index: 1;
+    font-style: normal;
+    top: 90px;
+    left: 250px; }
+
+.title-page {
+  font-family: 'SansationLight';
+  font-size: 36px;
+  margin: 41px 0px; }
+
+.main-content {
+  height: 1153px; }
+
+.category-list {
+  margin-bottom: 50px;
+  margin-left: -10px;
+  padding: 0 -5px; }
+
+.category-item {
+  position: relative;
+  float: left;
+  width: 33,33333333%;
+  padding: 0 5px; }
+  .category-item .inner {
+    border-radius: 5px; }
+    .category-item .inner::after {
+      display: inline-block;
+      clear: both;
+      content: ""; }
+    .category-item .inner .title-category {
+      position: absolute;
+      color: #fff;
+      top: 40px;
+      left: 75px;
+      font-size: 30px;
+      text-align: center;
+      z-index: 1; }
+    .category-item .inner .category-img {
+      position: relative;
+      display: block; }
+      .category-item .inner .category-img::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.5); }
+      .category-item .inner .category-img:hover::after {
+        background-color: rgba(62, 205, 241, 0.74); }
+
+.tour-list {
+  margin-bottom: 20px;
+  margin-left: -15px;
+  padding: 0 -10px; }
+  .tour-list::after {
+    display: block;
+    clear: both;
+    content: ""; }
+  .tour-list .tour-item {
+    float: left;
+    width: 25%;
+    height: 278px;
+    margin-bottom: 20px;
+    padding: 0 10px; }
+    .tour-list .tour-item .inner {
+      border: 1px solid #e3e3e3;
+      border-radius: 10px; }
+      .tour-list .tour-item .inner .img-tour {
+        width: 295px;
+        height: 206px; }
+      .tour-list .tour-item .inner .tour-title {
+        font-size: 15px;
+        padding-left: 15px;
+        padding-top: 10px; }
+      .tour-list .tour-item .inner .price {
+        color: #0ec0ee;
+        font-weight: bold; }
+      .tour-list .tour-item .inner p {
+        padding-left: 15px; }
+
+.footer {
+  max-height: 235px; }
+
+.footer-top {
+  padding-top: 32px; }
+  .footer-top::after {
+    display: block;
+    clear: both;
+    content: ""; }
+  .footer-top h5 {
+    font-weight: bold;
+    margin-bottom: 15px; }
+  .footer-top li {
+    padding-bottom: 8px; }
+  .footer-top .block-logo {
+    float: left; }
+  .footer-top .label {
+    font-family: 'SansationLight'; }
+  .footer-top .textbox {
+    float: left;
+    width: 361px;
+    height: 52px;
+    margin-top: 29px;
+    font-style: italic;
+    color: #aaaaaa;
+    border: 1px solid #e5e5e5;
+    border-right: none;
+    padding-left: 19px; }
+  .footer-top .button-footer {
+    width: 88px;
+    height: 52px;
+    border: none;
+    border-radius: 3px;
+    background: #0ec0ee url("../img/letter.png") no-repeat center;
+    margin-top: 29px; }
+
+.block-footer {
+  float: left;
+  font-family: 'SansationLight'; }
+
+.thongtin {
+  margin-left: 120px; }
+
+.congdong {
+  margin-left: 131px; }
+  .congdong::after {
+    display: block;
+    clear: both;
+    content: ""; }
+  .congdong a {
+    padding-bottom: 7px; }
+  .congdong li img {
+    vertical-align: middle;
+    margin-right: 3px; }
+  .congdong li span {
+    vertical-align: middle; }
+
+.block-email {
+  float: right; }
+
+.footer-bottom {
+  margin-top: 8px; }
+  .footer-bottom::after {
+    display: block;
+    clear: both;
+    content: ""; }
+  .footer-bottom .copyright {
+    float: left; }
+  .footer-bottom .design-by {
+    float: right;
+    margin-top: 4px; }
+    .footer-bottom .design-by .kovo {
+      color: #30b549; }
+
+/*# sourceMappingURL=style.css.map */
