@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>DOM & BOM</title>
+  <link rel="stylesheet" href="">
+  <style type="text/css">
+    .btn {
+      margin-left: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div id="js-hello">
+    <input type="text" name="js-name" id="js-name" value="">
+    <button type="button" name="button" id="js-submit">Submit</button>
+    <h3>List Members</h3>
+    <ul id="js-member" name="js-member">
+
+    </ul>
+  </div>
+  <script type="text/javascript">
+    
+    var $input = document.getElementsByName('js-name');
+    var $submit = document.getElementById('js-submit');
+    var $list = document.getElementById('js-member');
+
+    $submit.addEventListener('click',function () {
+      var name = $input[0].value;
+      var $newMember = document.createElement('li');
+
+      var $btn = document.createElement('button');
+
+      $btn.className ='btn';
+      $btn.innerHTML = 'Delete';
+
+      $newMember.innerHTML = name;
+      $newMember.appendChild($btn);
+
+      $list.appendChild($newMember);
+
+      $btn.addEventListener('click',function () {
+        $list.removeChild(this.parentNode);
+      })
+
+    })
+  </script>
+</body>
+</html>
