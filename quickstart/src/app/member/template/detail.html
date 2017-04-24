@@ -1,0 +1,21 @@
+<h1>Member Detail</h1>
+<table *ngIf="selectedMember" class="table">
+  <tr>
+    <td>Name: </td>
+    <td>{{selectedMember.name}}</td>
+  </tr>
+  <tr>
+    <td>Avatar: </td>
+    <td>
+      <img src="{{selectedMember.avatar | avatar}}" alt="{{selectedMember.name}}">
+    </td>
+  </tr>
+  <tr>
+    <td>Team: </td>
+    <td>{{selectedMember.team | uppercase}}</td>
+  </tr>
+  <tr>
+    <td>Day Join: </td>
+    <td>{{selectedMember.datejoin | date : 'fullDate'}}</td>
+  </tr>
+</table>
