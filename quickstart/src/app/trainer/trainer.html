@@ -1,0 +1,13 @@
+<h1>List Trainers</h1>
+<table>
+  <tr>
+    <th>Full Name</th>
+    <th>Team</th>
+  </tr>
+  <tr *ngFor="let item of trainers; let i = index">
+    <td>{{item.fullname}}</td>
+    <td>{{item.team}}</td>
+    <td><button type="button" (click)="viewDetail(i)">Detail</button></td>
+  </tr>
+</table>
+<detail [selected]="selectedItem"></detail>

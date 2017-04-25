@@ -1,0 +1,18 @@
+<h1>Member List</h1>
+<div class="form-group">
+  <label for="usr">Search:</label>
+	<input type="input" id="usr" placeholder="Search by team" style="margin-bottom: 10px;" [(ngModel)]="teamName">
+</div>
+<table class="table ">
+	<tr>
+		<th>Name</th>
+		<th></th>
+	</tr>
+	<tr *ngFor="let item of members | team : teamName">
+		<td>{{item.name}}</td>
+		<td>
+			<button type="button" class="btn" (click)="viewDetail(item.id)">Detail</button>
+		</td>
+	</tr>
+</table>
+<detail [selected]="selectedMember"></detail>
